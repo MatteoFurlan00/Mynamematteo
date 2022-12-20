@@ -1,0 +1,72 @@
+*  {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+ 
+}
+
+
+.textGradient {
+    color: #ff8c00;
+    background: linear-gradient(to right,
+    #40e0d0, #ff8c00, #ff0080);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.biography {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.social {
+    text-align: center;
+}
+
+.skill {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+.portfolio {
+   position: absolute;
+   background-color: yellow;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   padding: 50px;
+   min-height: 50px;
+   max-width: 120px;
+   font-family: 'Bebas Neue', cursive;
+
+}
+
+
+h1 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 60px;
+    color:aliceblue;
+    text-align: center;
+}
+
+.header {
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+}
